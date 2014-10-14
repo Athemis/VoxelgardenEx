@@ -1,0 +1,6 @@
+[submodule "mods/beds"]
+	path = mods/beds
+	url = https://github.com/Athemis/beds.git
+[submodule "mods/highlandpools"]
+	path = mods/highlandpools
+	url = https://github.com/Athemis/highlandpools.git
