@@ -3,7 +3,7 @@
 
 ### About
 
-This game is a Fork of Casimirs amazing Voxelgarden game. The aim is to
+This game is a Fork of Casimir's amazing Voxelgarden game. The aim is to
 preserve its unique gameplay while enhancing the survival experience by
 presenting the player a richer more dangerous environment.
 
