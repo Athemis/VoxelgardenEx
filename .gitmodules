@@ -31,3 +31,6 @@
 [submodule "mods/throwing"]
 	path = mods/throwing
 	url = https://github.com/Athemis/throwing.git
+[submodule "mods/item_drop"]
+	path = mods/item_drop
+	url = https://github.com/Athemis/item_drop.git
