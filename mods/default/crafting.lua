@@ -92,6 +92,15 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
+	output = 'default:pick_bronze',
+	recipe = {
+		{'default:bronze_ingot', 'default:bronze_ingot', 'default:bronze_ingot'},
+		{'', 'group:stick', ''},
+		{'', 'group:stick', ''},
+	}
+})
+
+minetest.register_craft({
 	output = 'default:pick_steel',
 	recipe = {
 		{'default:steel_ingot', 'default:steel_ingot', 'default:steel_ingot'},
@@ -99,7 +108,7 @@ minetest.register_craft({
 		{'', 'group:stick', ''},
 	}
 })
-
+--[[
 minetest.register_craft({
 	output = 'default:pick_mese',
 	recipe = {
@@ -107,7 +116,7 @@ minetest.register_craft({
 		{'', 'group:stick', ''},
 		{'', 'group:stick', ''},
 	}
-})
+})]]--
 
 minetest.register_craft({
 	output = 'default:shovel_wood',
@@ -140,6 +149,15 @@ minetest.register_craft({
 	output = 'default:shovel_copper',
 	recipe = {
 		{'default:copper_ingot'},
+		{'group:stick'},
+		{'group:stick'},
+	}
+})
+
+minetest.register_craft({
+	output = 'default:shovel_bronze',
+	recipe = {
+		{'default:bronze_ingot'},
 		{'group:stick'},
 		{'group:stick'},
 	}
@@ -191,6 +209,15 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
+	output = 'default:axe_bronze',
+	recipe = {
+		{'default:bronze_ingot', 'group:stick'},
+		{'default:bronze_ingot', 'group:stick'},
+		{'', 'group:stick'},
+	}
+})
+
+minetest.register_craft({
 	output = 'default:axe_steel',
 	recipe = {
 		{'default:steel_ingot', 'group:stick'},
@@ -231,6 +258,15 @@ minetest.register_craft({
 	recipe = {
 		{'default:copper_ingot'},
 		{'default:copper_ingot'},
+		{'group:stick'},
+	}
+})
+
+minetest.register_craft({
+	output = 'default:sword_bronze',
+	recipe = {
+		{'default:bronze_ingot'},
+		{'default:bronze_ingot'},
 		{'group:stick'},
 	}
 })
@@ -325,6 +361,22 @@ minetest.register_craft({
 	output = 'default:copper_ingot 9',
 	recipe = {
 		{'default:copperblock'},
+	}
+})
+
+minetest.register_craft({
+	output = 'default:bronzeblock',
+	recipe = {
+		{'default:bronze_ingot', 'default:bronze_ingot', 'default:bronze_ingot'},
+		{'default:bronze_ingot', 'default:bronze_ingot', 'default:bronze_ingot'},
+		{'default:bronze_ingot', 'default:bronze_ingot', 'default:bronze_ingot'},
+	}
+})
+
+minetest.register_craft({
+	output = 'default:bronze_ingot 9',
+	recipe = {
+		{'default:bronzeblock'},
 	}
 })
 
