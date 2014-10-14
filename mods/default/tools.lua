@@ -79,6 +79,7 @@ minetest.register_tool("default:pick_steel", {
 		damage_groups = {fleshy=3},
 	},
 })
+--[[
 minetest.register_tool("default:pick_mese", {
 	description = "Mese Pickaxe",
 	inventory_image = "default_tool_mesepick.png",
@@ -92,6 +93,7 @@ minetest.register_tool("default:pick_mese", {
 		},
 	},
 })
+--]]
 minetest.register_tool("default:pick_diamond", {
 	description = "Diamond Pickaxe",
 	inventory_image = "default_tool_diamondpick.png",

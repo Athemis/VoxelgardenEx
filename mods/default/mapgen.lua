@@ -300,7 +300,7 @@ function default.make_cactus(pos, size)
 		end
 	end
 end
-
+--[[
 -- facedir: 0/1/2/3 (head node facedir value)
 -- length: length of rainbow tail
 function default.make_nyancat(pos, facedir, length)
@@ -348,12 +348,12 @@ function generate_nyancats(seed, minp, maxp)
 		end
 	end
 end
-
+]]--
 minetest.register_on_generated(function(minp, maxp, seed)
-
+--[[
 	-- Generate nyan rats
 	generate_nyancats(seed, minp, maxp)
-
+]]--
 	-- For mapgen v7 see biomes.lua
 	if minetest.setting_get("mg_name") == "v7" then return end
 	

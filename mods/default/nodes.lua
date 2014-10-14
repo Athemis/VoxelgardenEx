@@ -49,6 +49,24 @@ minetest.register_node("default:stone_with_copper", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
+minetest.register_node("default:stone_with_gold", {
+	description = "Gold Ore",
+	tiles = {"default_stone.png^default_mineral_gold.png"},
+	is_ground_content = true,
+	groups = {cracky=3},
+	drop = "default:gold_lump",
+	sounds = default.node_sound_stone_defaults(),
+})
+	
+minetest.register_node("default:stone_with_diamond", {
+	description = "Diamond Ore",
+	tiles = {"default_stone.png^default_mineral_diamond.png"},
+	is_ground_content = true,
+	groups = {cracky=1},
+	drop = "default:diamond",
+	sounds = default.node_sound_stone_defaults(),
+})
+
 minetest.register_node("default:stone_with_mese", {
 	description = "Mese Crystals in Stone",
 	tiles = {"default_stone.png^default_mineral_mese.png"},
@@ -923,6 +941,14 @@ minetest.register_node("default:copperblock", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
+minetest.register_node("default:bronzeblock", {
+	description = "Bronze Block",
+	tiles = {"default_bronze_block.png"},
+	is_ground_content = true,
+	groups = {cracky=1,level=2},
+	sounds = default.node_sound_stone_defaults(),
+})
+
 minetest.register_node("default:mese", {
 	description = "Mese Block",
 	tiles = {"default_mese_block.png"},
@@ -932,6 +958,22 @@ minetest.register_node("default:mese", {
 })
 minetest.register_alias("default:mese_block", "default:mese")
 
+minetest.register_node("default:goldblock", {
+	description = "Gold Block",
+	tiles = {"default_gold_block.png"},
+	is_ground_content = true,
+	groups = {cracky=1},
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("default:diamondblock", {
+	description = "Diamond Block",
+	tiles = {"default_diamond_block.png"},
+	is_ground_content = true,
+	groups = {cracky=1,level=3},
+	sounds = default.node_sound_stone_defaults(),
+})
+--[[
 minetest.register_node("default:nyancat", {
 	description = "Nyan Rat",
 	tiles = {"default_nc_side.png", "default_nc_side.png", "default_nc_side.png",
@@ -950,7 +992,7 @@ minetest.register_node("default:nyancat_rainbow", {
 	groups = {cracky=2},
 	sounds = default.node_sound_defaults(),
 })
-
+]]--
 minetest.register_node("default:sapling", {
 	description = "Sapling",
 	drawtype = "plantlike",

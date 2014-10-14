@@ -81,6 +81,7 @@ minetest.register_craft({
 	}
 })
 
+
 minetest.register_craft({
 	output = 'default:pick_copper',
 	recipe = {

@@ -25,3 +25,6 @@
 [submodule "mods/sea"]
 	path = mods/sea
 	url = https://github.com/Athemis/sea.git
+[submodule "mods/moreores"]
+	path = mods/moreores
+	url = https://github.com/Athemis/moreores.git
