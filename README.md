@@ -1,8 +1,14 @@
-Voxelgarden 0.4.10
-Subgame for Minetest
+# VoxelgardenEx 0.4.10
+## Subgame for Minetest
 
-License of source code:
------------------------
+### About
+
+This game is a Fork of Casimirs amazing Voxelgarden game. The aim is to
+preserve its unique gameplay while enhancing the survival experience by
+presenting the player a richer more dangerous environment.
+
+### License of source code:
+
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
 the Free Software Foundation; either version 2.1 of the License, or
