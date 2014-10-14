@@ -4,3 +4,18 @@
 [submodule "mods/highlandpools"]
 	path = mods/highlandpools
 	url = https://github.com/Athemis/highlandpools.git
+[submodule "mods/plantlife_modpack"]
+	path = mods/plantlife_modpack
+	url = https://github.com/Athemis/plantlife_modpack.git
+[submodule "mods/moretrees"]
+	path = mods/moretrees
+	url = https://github.com/VanessaE/moretrees.git
+[submodule "mods/mobapi"]
+	path = mods/mobapi
+	url = https://github.com/Athemis/mobapi.git
+[submodule "mods/snowdrift"]
+	path = mods/snowdrift
+	url = https://github.com/Athemis/snowdrift.git
+[submodule "mods/minetest-mod-snow"]
+	path = mods/minetest-mod-snow
+	url = https://github.com/Athemis/minetest-mod-snow.git
