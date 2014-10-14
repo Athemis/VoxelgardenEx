@@ -57,13 +57,24 @@ minetest.register_tool("default:pick_copper", {
 		damage_groups = {fleshy=3},
 	},
 })
+minetest.register_tool("default:pick_bronze", {
+	description = "Bronze Pickaxe",
+	inventory_image = "default_tool_bronzepick.png",
+	tool_capabilities = {
+		full_punch_interval = 1.0,
+		groupcaps={
+			cracky = {times={[1]=4.00, [2]=1.60, [3]=0.80}, uses=20, maxlevel=2},
+		},
+		damage_groups = {fleshy=3},
+	},
+})
 minetest.register_tool("default:pick_steel", {
 	description = "Steel Pickaxe",
 	inventory_image = "default_tool_steelpick.png",
 	tool_capabilities = {
 		full_punch_interval = 1.0,
 		groupcaps={
-			cracky = {times={[1]=4.00, [2]=1.60, [3]=0.80}, uses=20, maxlevel=2},
+			cracky = {times={[1]=4.00, [2]=1.60, [3]=0.80}, uses=25, maxlevel=2},
 		},
 		damage_groups = {fleshy=3},
 	},
@@ -79,6 +90,18 @@ minetest.register_tool("default:pick_mese", {
 			snappy = {times={[1]=2.0, [2]=1.0, [3]=0.50}, uses=8, maxlevel=3},
 			choppy = {times={[1]=2.0, [2]=1.0, [3]=0.50}, uses=8, maxlevel=3}
 		},
+	},
+})
+minetest.register_tool("default:pick_diamond", {
+	description = "Diamond Pickaxe",
+	inventory_image = "default_tool_diamondpick.png",
+	tool_capabilities = {
+		full_punch_interval = 0.9,
+		max_drop_level=3,
+		groupcaps={
+			cracky = {times={[1]=2.0, [2]=1.0, [3]=0.50}, uses=30, maxlevel=3},
+		},
+		damage_groups = {fleshy=5},
 	},
 })
 

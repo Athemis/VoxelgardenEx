@@ -22,7 +22,7 @@ mobapi:register_mob("mobs_simple:chicken", {
 	water_damage = 1,
 	lava_damage = 5,
 	light_damage = 0,
-	jump = false,
+--	jump = false,
 	animation = {
 		speed_normal = 15,
 		stand_start = 0,
@@ -38,7 +38,7 @@ mobapi:register_mob("mobs_simple:chicken", {
 			self.object:remove()
 		end
 	end,
-	jump = true,
+--	jump = true,
 	step = 1,
 	blood_texture = "mobs_blood.png",
 	passive = true,
