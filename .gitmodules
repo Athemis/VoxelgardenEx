@@ -34,3 +34,6 @@
 [submodule "mods/item_drop"]
 	path = mods/item_drop
 	url = https://github.com/Athemis/item_drop.git
+[submodule "mods/unifieddyes"]
+	path = mods/unifieddyes
+	url = https://github.com/VanessaE/unifieddyes.git
