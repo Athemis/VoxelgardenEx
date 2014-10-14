@@ -44,6 +44,20 @@ minetest.register_tool("farming:hoe_copper", {
 	end
 })
 
+minetest.register_tool("farming:hoe_bronze", {
+	description = "Bronze Hoe",
+	inventory_image = "farming_hoe_bronze.png",
+	tool_capabilities = {
+		full_punch_interval = 1.2,
+		groupcaps={
+			crumbly = {times={[1]=1.70, [2]=0.80, [3]=0.60}, uses=18, maxlevel=1},
+		}
+	},
+	on_place = function(itemstack, placer, pointed_thing)
+		return farming.hoe_on_use(itemstack, placer, pointed_thing.under, 40)
+	end
+})
+
 minetest.register_tool("farming:hoe_steel", {
 	description = "Steel Hoe",
 	inventory_image = "farming_hoe_steel.png",
@@ -57,7 +71,7 @@ minetest.register_tool("farming:hoe_steel", {
 		return farming.hoe_on_use(itemstack, placer, pointed_thing.under, 120)
 	end
 })
-
+--[[
 minetest.register_tool("farming:hoe_mese", {
 	description = "Mese Hoe",
 	inventory_image = "farming_hoe_mese.png",
@@ -77,7 +91,7 @@ minetest.register_tool("farming:hoe_mese", {
 		end
 	end
 })
-
+]]--
 --
 -- Crafts
 --
@@ -117,7 +131,7 @@ minetest.register_craft({
 		{"", "group:stick"}
 	}
 })
-
+--[[
 minetest.register_craft({
 	output = "farming:hoe_mese",
 	recipe = {
@@ -126,3 +140,4 @@ minetest.register_craft({
 		{"", "group:stick"}
 	}
 })
+]]--

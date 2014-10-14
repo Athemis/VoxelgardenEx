@@ -139,6 +139,17 @@ minetest.register_tool("default:shovel_copper", {
 		damage_groups = {fleshy=2},
 	},
 })
+minetest.register_tool("default:shovel_bronze", {
+	description = "Bronze Shovel",
+	inventory_image = "default_tool_bronzeshovel.png",
+	tool_capabilities = {
+		full_punch_interval = 1.1,
+		groupcaps={
+			crumbly = {times={[1]=1.70, [2]=1.10, [3]=0.50}, uses=18, maxlevel=2},
+		},
+		damage_groups = {fleshy=2},
+	},
+})
 minetest.register_tool("default:shovel_steel", {
 	description = "Steel Shovel",
 	inventory_image = "default_tool_steelshovel.png",
@@ -180,6 +191,17 @@ minetest.register_tool("default:axe_copper", {
 		full_punch_interval = 1.1,
 		groupcaps={
 			choppy={times={[1]=2.80, [2]=1.40, [3]=1.20}, uses=15, maxlevel=3},
+		},
+		damage_groups = {fleshy=3},
+	},
+})
+minetest.register_tool("default:axe_bronze", {
+	description = "Bronze Axe",
+	inventory_image = "default_tool_bronzeaxe.png",
+	tool_capabilities = {
+		full_punch_interval = 1.1,
+		groupcaps={
+			choppy={times={[1]=2.80, [2]=1.40, [3]=1.20}, uses=18, maxlevel=3},
 		},
 		damage_groups = {fleshy=3},
 	},
@@ -226,6 +248,17 @@ minetest.register_tool("default:sword_copper", {
 		full_punch_interval = 1.0,
 		groupcaps={
 			snappy={times={[1]=3.0, [2]=1.30, [3]=0.40}, uses=15, maxlevel=2},
+		},
+		damage_groups = {fleshy=4},
+	}
+})
+minetest.register_tool("default:sword_bronze", {
+	description = "Bronze Sword",
+	inventory_image = "default_tool_bronzesword.png",
+	tool_capabilities = {
+		full_punch_interval = 1.0,
+		groupcaps={
+			snappy={times={[1]=3.0, [2]=1.30, [3]=0.40}, uses=18, maxlevel=2},
 		},
 		damage_groups = {fleshy=4},
 	}

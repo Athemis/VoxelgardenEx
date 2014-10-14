@@ -28,3 +28,6 @@
 [submodule "mods/moreores"]
 	path = mods/moreores
 	url = https://github.com/Athemis/moreores.git
+[submodule "mods/throwing"]
+	path = mods/throwing
+	url = https://github.com/Athemis/throwing.git
