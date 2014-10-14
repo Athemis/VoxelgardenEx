@@ -19,29 +19,29 @@ http://www.gnu.org/licenses/lgpl-2.1.html
 For every mod applies the original license. See list below.
 All other media is licenced under Creative Commons BY-SA license.
 
-Mod             License
-
-bones           WTFPL
-bucket          LGPL
-conifer         LGPL
-creative        WTFPL
-default         LGPL
-doors           LGPL
-drowning        WTFPL
-dye             WTFPL
-farming         LGPL
-fire            LGPL
-flowers         WTFPL
-footsteps       LGPL
-hunger          LGPL
-intweak         WTFPL
-inventory_plus  GPL
-legacy          LGPL
-nodetest	LGPL
-no_itemdrop     LGPL
-pots            WTFPL
-screwdriver     LGPL
-sethome         LGPL
-stairsplus      zlib/libpng
-wool            WTFPL
-zcg             WTFPL
+Mod            |License
+---------------|-------
+bones          |WTFPL
+bucket         |LGPL
+conifer        |LGPL
+creative       |WTFPL
+default        |LGPL
+doors          |LGPL
+drowning       |WTFPL
+dye            |WTFPL
+farming        |LGPL
+fire           |LGPL
+flowers        |WTFPL
+footsteps      |LGPL
+hunger         |LGPL
+intweak        |WTFPL
+inventory_plus |GPL
+legacy         |LGPL
+nodetest       |LGPL
+no_itemdrop    |LGPL
+pots           |WTFPL
+screwdriver    |LGPL
+sethome        |LGPL
+stairsplus     |zlib/libpng
+wool           |WTFPL
+zcg            |WTFPL
