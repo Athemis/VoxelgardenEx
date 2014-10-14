@@ -19,3 +19,6 @@
 [submodule "mods/minetest-mod-snow"]
 	path = mods/minetest-mod-snow
 	url = https://github.com/Athemis/minetest-mod-snow.git
+[submodule "mods/snow"]
+	path = mods/snow
+	url = https://github.com/Athemis/minetest-mod-snow.git
