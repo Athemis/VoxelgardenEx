@@ -16,18 +16,12 @@
 [submodule "mods/snowdrift"]
 	path = mods/snowdrift
 	url = https://github.com/Athemis/snowdrift.git
-[submodule "mods/minetest-mod-snow"]
-	path = mods/minetest-mod-snow
-	url = https://github.com/Athemis/minetest-mod-snow.git
 [submodule "mods/snow"]
 	path = mods/snow
 	url = https://github.com/Athemis/minetest-mod-snow.git
 [submodule "mods/sea"]
 	path = mods/sea
 	url = https://github.com/Athemis/sea.git
-[submodule "mods/moreores"]
-	path = mods/moreores
-	url = https://github.com/Athemis/moreores.git
 [submodule "mods/throwing"]
 	path = mods/throwing
 	url = https://github.com/Athemis/throwing.git
@@ -37,6 +31,3 @@
 [submodule "mods/unifieddyes"]
 	path = mods/unifieddyes
 	url = https://github.com/VanessaE/unifieddyes.git
-[submodule "mods/canyon"]
-	path = mods/canyon
-	url = https://github.com/paramat/canyon
