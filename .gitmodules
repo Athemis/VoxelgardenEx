@@ -37,3 +37,6 @@
 [submodule "mods/unifieddyes"]
 	path = mods/unifieddyes
 	url = https://github.com/VanessaE/unifieddyes.git
+[submodule "mods/canyon"]
+	path = mods/canyon
+	url = https://github.com/paramat/canyon
