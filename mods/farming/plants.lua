@@ -76,10 +76,21 @@ minetest.override_item("farming:wheat_"..max_stage.."", {
 
 farming.register_growing(max_stage, stages, 57, 10, 10)
 
+minetest.register_craftitem("farming:flour", {
+	description = "Flour",
+	inventory_image = "farming_flour.png",
+})
+
+minetest.register_craft({
+	output = 'farming:flour',
+	type = "shapeless",
+	recipe = {"farming:wheat", "farming:wheat", "farming:wheat", "farming:wheat"},
+})
+
 minetest.register_craft({
 	output = "farming:dough",
 	type = "shapeless",
-	recipe = {"farming:wheat", "farming:wheat", "farming:wheat", "farming:wheat"},
+	recipe = {"farming:flour", "farming:flour", "farming:flour", "farming:flour"},
 })
 
 minetest.register_craftitem("farming:dough", {
@@ -103,7 +114,7 @@ minetest.register_craftitem("farming:bread", {
 minetest.register_node("farming:straw", {
   description = "Straw",
 	tiles = {"farming_straw.png"},
-	drop = "farming:wheat 4",
+	drop = "farming:wheat 9",
 	groups = {snappy=3, fall_damage_add_percent=COUSHION, flammable=2},
 	sounds = default.node_sound_leaves_defaults(),
 })
@@ -112,13 +123,14 @@ minetest.register_alias("darkage:straw", "farming:straw")
 minetest.register_craft({
 	output = "farming:straw",
 	recipe = {
-		{"farming:wheat", "farming:wheat"},
-		{"farming:wheat", "farming:wheat"},
+		{"farming:wheat", "farming:wheat", "farming:wheat"},
+		{"farming:wheat", "farming:wheat", "farming:wheat"},
+		{"farming:wheat", "farming:wheat", "farming:wheat"},
 	},
 })
 
 minetest.register_craft({
-	output = 'farming:wheat 4',
+	output = 'farming:wheat 9',
 	recipe = {
 		{'farming:straw'},
 	}
