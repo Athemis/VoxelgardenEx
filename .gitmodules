@@ -9,7 +9,7 @@
 	url = https://github.com/Athemis/plantlife_modpack.git
 [submodule "mods/moretrees"]
 	path = mods/moretrees
-	url = https://github.com/VanessaE/moretrees.git
+	url = https://github.com/Athemis/moretrees.git
 [submodule "mods/mobapi"]
 	path = mods/mobapi
 	url = https://github.com/Athemis/mobapi.git
