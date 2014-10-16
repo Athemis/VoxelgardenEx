@@ -69,4 +69,4 @@ mobapi:register_mob("mobs_simple:sheep", {
 		end
 	end,
 })
-mobapi:register_spawn("mobs_simple:sheep", {"default:dirt_with_grass"}, 20, 8, 9000, 1, 31000)
+mobapi:register_spawn("mobs_simple:sheep", {"default:dirt_with_grass"}, {"air"}, 20, 8, 9000, 1, 31000)

@@ -37,4 +37,4 @@ mobapi:register_mob("mobs_simple:sand_monster", {
 		punch_end = 105,
 	},
 })
-mobapi:register_spawn("mobs_simple:sand_monster", {"default:desert_sand"}, 20, -1, 7000, 3, 31000)
+mobapi:register_spawn("mobs_simple:sand_monster", {"default:desert_sand"}, {"air"}, 20, -1, 7000, 3, 31000)

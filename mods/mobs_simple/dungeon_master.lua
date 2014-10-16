@@ -40,7 +40,7 @@ mobapi:register_mob("mobs_simple:dungeon_master", {
 		speed_run = 15,
 	},
 })
-mobapi:register_spawn("mobs_simple:dungeon_master", {"default:stone"}, 2, -1, 7000, 1, -50)
+mobapi:register_spawn("mobs_simple:dungeon_master", {"default:stone"}, {"air"}, 2, -1, 7000, 1, -50)
 
 mobapi:register_arrow("mobs_simple:fireball", {
 	visual = "sprite",

@@ -42,4 +42,4 @@ mobapi:register_mob("mobs_simple:tree_monster", {
 		punch_end = 62,
 	},
 })
-mobapi:register_spawn("mobs_simple:tree_monster", {"default:leaves", "default:jungleleaves"}, 3, -1, 7000, 3, 31000)
+mobapi:register_spawn("mobs_simple:tree_monster", {"default:leaves", "default:jungleleaves"}, {"air"}, 3, -1, 7000, 3, 31000)

@@ -37,4 +37,4 @@ mobapi:register_mob("mobs_simple:stone_monster", {
 		punch_end = 63,
 	}
 })
-mobapi:register_spawn("mobs_simple:stone_monster", {"default:stone"}, 3, -1, 7000, 3, 0)
+mobapi:register_spawn("mobs_simple:stone_monster", {"default:stone"}, {"air"}, 3, -1, 7000, 3, 0)

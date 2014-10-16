@@ -44,7 +44,7 @@ mobapi:register_mob("mobs_simple:chicken", {
 	passive = true,
 })
 
-mobapi:register_spawn("mobs_simple:chicken", {"default:dirt_with_grass", "ethereal:bamboo_dirt"}, 20, 8, 9000, 1, 31000)
+mobapi:register_spawn("mobs_simple:chicken", {"default:dirt_with_grass", "ethereal:bamboo_dirt"}, {"air"}, 20, 8, 9000, 1, 31000)
 
 -- Chicken (right-click chicken to place in inventory)
 

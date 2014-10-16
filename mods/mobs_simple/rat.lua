@@ -21,7 +21,7 @@ mobapi:register_mob("mobs_simple:rat", {
 		end
 	end,
 })
-mobapi:register_spawn("mobs_simple:rat", {"default:dirt_with_grass", "default:stone"}, 20, -1, 7000, 1, 31000)
+mobapi:register_spawn("mobs_simple:rat", {"default:dirt_with_grass", "default:stone"}, {"air"}, 20, -1, 7000, 1, 31000)
 
 minetest.register_craftitem("mobs_simple:rat_cooked", {
 	description = "Cooked Rat",

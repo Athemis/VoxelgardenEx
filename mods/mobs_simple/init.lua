@@ -4,6 +4,8 @@
 dofile(minetest.get_modpath("mobs_simple").."/chicken.lua")
 dofile(minetest.get_modpath("mobs_simple").."/rat.lua")
 dofile(minetest.get_modpath("mobs_simple").."/sheep.lua")
+dofile(minetest.get_modpath("mobs_simple").."/clownfish.lua")
+dofile(minetest.get_modpath("mobs_simple").."/fish_blue_white.lua")
 
 -- Monsters
 

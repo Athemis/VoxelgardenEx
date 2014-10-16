@@ -32,4 +32,4 @@ mobapi:register_mob("mobs_simple:oerkki", {
 		speed_run = 15,
 	},
 })
-mobapi:register_spawn("mobs_simple:oerkki", {"default:stone"}, 2, -1, 7000, 3, -10)
+mobapi:register_spawn("mobs_simple:oerkki", {"default:stone"}, {"air"}, 2, -1, 7000, 3, -10)
