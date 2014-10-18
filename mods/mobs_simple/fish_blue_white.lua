@@ -14,6 +14,7 @@ mobapi:register_mob("mobs_simple:fish_blue_white", {
 	lava_damage = 1,
 	air_damage = 1,
 	light_damage = 0,
+	jump = false,
 	
 	animation = {
 		speed_normal = 15,
