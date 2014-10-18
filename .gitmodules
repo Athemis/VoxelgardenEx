@@ -7,9 +7,6 @@
 [submodule "mods/plantlife_modpack"]
 	path = mods/plantlife_modpack
 	url = https://github.com/Athemis/plantlife_modpack.git
-[submodule "mods/moretrees"]
-	path = mods/moretrees
-	url = https://github.com/Athemis/moretrees.git
 [submodule "mods/mobapi"]
 	path = mods/mobapi
 	url = https://github.com/Athemis/mobapi.git
@@ -31,3 +28,6 @@
 [submodule "mods/unifieddyes"]
 	path = mods/unifieddyes
 	url = https://github.com/VanessaE/unifieddyes.git
+[submodule "mods/moretrees"]
+	path = mods/moretrees
+	url = https://github.com/Athemis/moretrees.git
